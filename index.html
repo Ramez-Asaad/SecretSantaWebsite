@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa 🎅</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎄 Secret Santa 🎁</h1>
+            <p>Welcome to the holiday magic! Spin the wheel and get your secret name! 🎅✨</p>
+        </header>
+        <main id="main-content">
+            <div id="login-screen">
+                <h2>Who’s joining the fun?</h2>
+                <select id="name-selector">
+                    <option value="">Select your name</option>
+                </select>
+                <button id="login-btn">Let’s Go! 🎉</button>
+            </div>
+            <div id="wheel-screen" class="hidden">
+                <h2>🎁 Spin the Wheel! 🎁</h2>
+                <div id="wheel"></div>
+                <button id="spin-btn">Spin the Wheel! 🎡</button>
+            </div>
+            <div id="result-screen" class="hidden">
+                <h2>You got...</h2>
+                <p id="result-name"></p>
+                <p class="fun-msg">“Hope you like surprises!” 🎁</p>
+            </div>
+        </main>
+        <footer>
+            <p>Made with ❤️ for the holidays! 🎅🎄</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
