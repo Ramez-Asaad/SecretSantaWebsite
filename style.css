@@ -28,6 +28,34 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+#wheel-container {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    border: 5px solid #ff4444;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#wheel {
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(
+        #ffcccc 0 30deg,
+        #ffe6e6 30deg 60deg,
+        #ffcccc 60deg 90deg,
+        #ffe6e6 90deg 120deg,
+        #ffcccc 120deg 150deg,
+        #ffe6e6 150deg 180deg,
+        #ffcccc 180deg 210deg,
+        #ffe6e6 210deg 240deg,
+        #ffcccc 240deg 270deg,
+        #ffe6e6 270deg 300deg,
+        #ffcccc 300deg 330deg,
+        #ffe6e6 330deg 360deg
+    );
+    transform: rotate(0deg);
+}
 footer {
     margin-top: 20px;
     font-size: 0.9em;
